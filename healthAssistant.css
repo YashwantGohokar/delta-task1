@@ -1,0 +1,53 @@
+body	{
+	background-color: #ffc126;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px 40px;
+	margin: 10px 5%;
+}
+
+h1	{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: white;
+	padding: 10px 0px;
+	margin: 0 30%;
+}
+
+p	{
+	line-height: 1.6em;
+	font-size: 200%;
+}
+
+.table	{
+	margin: 20px auto;
+	font-size: 150%;
+}
+
+hr	{
+	width: 36%;
+	margin-left: 0;
+}
+
+button	{
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	color: black;
+	transition: 0.4s;
+	font-size: 120%;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+td	{
+	padding: 
+}
+
+input	{
+	 height: 25px;
+    font-size:14pt;
+}

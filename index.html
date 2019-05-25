@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Health Assistant</title>
+	<link rel="stylesheet" type="text/css" href="healthAssistant.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>How Much Should You Eat</h1>
+
+<p>Think you eat more than you should? Keep track of your calorie consumption by filling in the details below!.</p> 
+
+<div id = "details" class="table">
+	<table>
+		<tr>Enter Your Details</tr>
+		<hr>
+		<tr>
+			<td>Gender</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td><input type="number"></td>
+			<td>in years</td>
+		</tr>
+		<tr>
+			<td>Height</td>
+			<td><input type="number"></td>
+			<td>in cm</td>
+		</tr>
+		<tr>
+			<td>Weight</td>
+			<td><input type="number"></td>
+			<td>in kg</td>
+		</tr>
+	</table>
+</div>
+
+<button id="b1">Submit</button>
+
+<br>
+				
+<div id = "food" class="table">			
+	<table>
+		<tr>Enter The Details Of Your Food in Calories</tr>
+		<hr>
+		<tr>
+			<td>Food</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Proteins</td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Carbs</td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td>Fats</td>
+			<td><input type="number"></td>
+		</tr>
+	</table>
+</div>
+
+<button id="b2">Submit</button>
+
+<p id="calorie"></p>
+
+
+
+
+<script type="text/javascript" src="healthAssistant.js"></script>
+
+</body>
+</html>
